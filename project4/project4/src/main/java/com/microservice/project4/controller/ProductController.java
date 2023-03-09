@@ -20,7 +20,7 @@ import lombok.extern.log4j.Log4j2;
 @RestController
 @RequiredArgsConstructor
 @Log4j2
-@RequestMapping("/product")
+@RequestMapping("/products")
 public class ProductController {
 	ProductService productService;
   @PostMapping
